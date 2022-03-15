@@ -21,10 +21,10 @@ function App() {
         </S.WrapperIcon>
         <S.Body>
           <InputTel value={numero} onChangeValue={setNumero} type="tel" />
-          {url.length > 26 && (
+          {url.length > 25 && (
             <S.ButtonIr href={url}>Ir para o WhatsApp</S.ButtonIr>
           )}
-          {url.length > 26 && (
+          {url.length > 25 && (
             <S.Details>
               ou acesse o link{" "}
               <a href={url} rel="noreferrer">
